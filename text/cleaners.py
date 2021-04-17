@@ -144,5 +144,6 @@ def russian_cleaners(text):
     text = lowercase(text)
     text = expand_numbers_ru(text)
     text = expand_abbreviations_ru(text)
+    text = expand_kings_numeric_ru(text)
     text = collapse_whitespace(text)
     return text
